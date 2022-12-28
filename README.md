@@ -1,11 +1,11 @@
 # 
 
-<h1>Active-Directory-1kuser-Home-Lab</h1>
+<h1>Active Directory Bulk User creation</h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-In this lab we're going to walk through how to create an Active Directory home lab Environment using Oracle Virtual Box. Configuring and running this lab will definitely help develop your understanding of how active directory and windows networking works, so I'd highly recommend running through it a couple times, ask questions where stuff is unclear, and eventually try to build it on your own without watching. Please let me know if you have any questions!
+In this lab this lab I created a Domain Controller in Active Directory.  I used Oracle Virtual Box to create the virtual environment to set up the Domain Controller and a Client PC to connect to our local domain.  Following a video, posted bY Josh Madakor on youtube (linked above), allowed me to use a custom PowerShell script to bulk add over 1 thousand different users into our domain.  
 <br />
 
 
@@ -22,13 +22,13 @@ In this lab we're going to walk through how to create an Active Directory home l
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Creating Users With PowerShell <br/>
-<img src="https://i.imgur.com/LoXy4lz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lets First rename our PC to match the new domain <br/>
+<img src="https://imgur.com/r6caVxS" height="80%" width="80%"/>
 <br />
 
   <p align="center">
 Creating Users With PowerShell <br/>
-<img src="https://i.imgur.com/LoXy4lz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/0b9Z6cK" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 
 <!--
