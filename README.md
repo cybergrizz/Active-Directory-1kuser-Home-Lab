@@ -25,8 +25,81 @@ In this lab this lab I created a Domain Controller in Active Directory.  I used 
 Lets First rename our PC to match the new domain <br/>
 <img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
 <br />
+ 
+Now we are going to change the IP address to one that was used during the test environment.
+-Change Adapter Options->Click Properties->Select Internet Protocol Version 4-> Use the following IP address(check video link for IP address) -> Change DNS Server to 127.0.0.1 to route DNS back to domain controller  <br/>
+<img src="https://i.imgur.com/YQ2LnnG.png" height="80%" width="80%"/>
+<br />
 
+ Now we need to add role and services to our domain<br/>
+<img src="https://i.imgur.com/80rOMY6.png" height="80%" width="80%"/>
+<br />
 
+ Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+
+ Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+
+ Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+
+ Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+
+ Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+
+ Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
+Lets First rename our PC to match the new domain <br/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+<br />
 
 <!--
  ```diff
