@@ -23,7 +23,7 @@ In this lab this lab I created a Domain Controller in Active Directory.  I used 
 
 
 <p align="center">
-Lets First rename our PC to match the new domain <br/>
+Lets girst rename our PC to match the new domain <br/>
 <img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
 <br />
  
@@ -62,7 +62,7 @@ We will select Domain Service to add create our domain and to be able to add out
 
  
  
- At first our Ethernet adapters did not load, but no woriies, closing out and opening it back up had both adapters populate.  We selected the adapter we configured with the above IP address <br/>
+ Our Ethernet adapters did not load, but no worries, closing out and opening it back up had both adapters populate.  We selected the adapter we configured with the above IP address <br/>
 <img src="https://i.imgur.com/RoWcJGS.png" height="80%" width="80%"/>
 <br />
 
