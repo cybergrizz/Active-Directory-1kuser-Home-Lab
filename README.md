@@ -21,34 +21,49 @@ In this lab this lab I created a Domain Controller in Active Directory.  I used 
 
 <h2>Program walk-through:</h2>
 
+
 <p align="center">
 Lets First rename our PC to match the new domain <br/>
 <img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
 <br />
  
+ 
+ 
 Now we are going to change the IP address to one that was used during the test environment.
 -Change Adapter Options->Click Properties->Select Internet Protocol Version 4-> Use the following IP address(check video link for IP address) -> Change DNS Server to 127.0.0.1 to route DNS back to domain controller  <br/>
 <img src="https://i.imgur.com/YQ2LnnG.png" height="80%" width="80%"/>
 <br />
+ 
 
+ 
  Now we need to add role and services to our domain<br/>
 <img src="https://i.imgur.com/80rOMY6.png" height="80%" width="80%"/>
 <br />
+ 
+ 
 
- Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+We will select Domain Service to add create our domain and to be able to add out organizational units that will hold out users and admins
+<img src="https://i.imgur.com/a9R3PGt.png" height="80%" width="80%"/>
 <br />
 
- Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+ 
+ 
+ After we promote our Domain, after adding the domain services, we will now add the Routing Access to give create servers on our domain to allow our clinet to login <br/>
+<img src="https://i.imgur.com/3FRhPyE.png" height="80%" width="80%"/>
+<br />
+ 
+ 
+
+ We will now configure the Routing services and Remote access using NAT.  This step is after we right-click on our Domain server and choose to configure Routing and Remote access  <br/>
+<img src="https://i.imgur.com/0woVLG9.png" height="80%" width="80%"/>
+<br />
+ <img src="https://i.imgur.com/uCTyo7r.png" height="80%" width="80%"/>
 <br />
 
- Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-
- Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+ 
+ 
+ At first our Ethernet adapters did not load, but no woriies, closing out and opening it back up had both adapters populate.  We selected the adapter we configured with the above IP address <br/>
+<img src="https://i.imgur.com/RoWcJGS.png" height="80%" width="80%"/>
 <br />
 
  Lets First rename our PC to match the new domain <br/>
