@@ -66,44 +66,80 @@ We will select Domain Service to add create our domain and to be able to add out
 <img src="https://i.imgur.com/RoWcJGS.png" height="80%" width="80%"/>
 <br />
 
- Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+ Now that we have that configured, we will not add the DHCP service to our domain <br/>
+<img src="https://i.imgur.com/CE9t7pF.png" height="80%" width="80%"/>
 <br />
-Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+ 
+ 
+REMEMBER! You must be on an admin account for this process becuase we need to authorize the DHCP server once we have completed setting it up <br/>
+<img src="https://i.imgur.com/Ms8VMvY.png" height="80%" width="80%"/>
 <br />
 
+Now that we have logged into an admin account after creating a new adim user, we will create a new scope for our first lease adding to allow our Client PC access to the domain <br/>
+<img src="https://i.imgur.com/Fvqmtvw.png" height="80%" width="80%"/>
+<br />
+ 
+ 
+Now we set our IP range<br/>
+<img src="https://i.imgur.com/zj3XFch.jpg" height="80%" width="80%"/>
+<br />
+ 
+ 
+Here is our lease for our Client PC.  The date does not matter as this virtual machine was de-provisioned as fast as it was spun up, but here is an example of how to set one <br/>
+<img src="https://i.imgur.com/LOLplxF.png" height="80%" width="80%"/>
+<br />
+ 
+We will now set our Default Gateway to that of the Domain Controller, while also setting the DNS to the same IP shortly after.  This will allow our Client PC to connect to the Domain<br/>
+<img src="https://i.imgur.com/LaQaJIM.jpg" height="80%" width="80%"/>
+<br />
+ 
+ 
+After those parameters are set, we now, with our ADMIN account, authorize the DHCP srver <br/>
+<img src="https://i.imgur.com/7KfwDe4.png" height="80%" width="80%"/>
+<br />
+ 
+ 
+The tutorial we followed has a custom PowerShell code that has can be installed on the DC to allow us to run the code. <br/>
+<img src="https://i.imgur.com/CbcfTRK.png" height="80%" width="80%"/>
+<br />
+ 
+!!AS IN ADMIN OF COURSE!!!
+ 
+ 
+Now we are Admin after we selected the PowerShell ISE to run as an administrator<br/>
+<img src="https://i.imgur.com/2Y4pITL.png" height="80%" width="80%"/>
+<br />
+ 
+ 
+So lets run this code.  We will use a .txt document in the file that has over a thousand users randomly generated.  But we must remeber, becuase at first I did not, that we must be in the directory of said file to actually run sad code... <br/>
+<img src="https://i.imgur.com/hNCyOt4.png" height="80%" width="80%"/>
+<br />
+ 
+ 
+Script runs, but dont chase it! That's...that's what it is supposed to do <br/>
+<img src="https://i.imgur.com/pJP6Idr.png" height="80%" width="80%"/>
+<br />
+ 
+ 
+Now we can see our user in Active Directory <br/>
+<img src="https://i.imgur.com/eaHSR1J.png" height="80%" width="80%"/>
+<br />
+ 
+ 
+Now we go back to Virtual Box and provison our Client PC.  But first we will change the Network Adapter setting to Internal <br/>
+<img src="https://i.imgur.com/Iafp83S.png" height="80%" width="80%"/>
+<br />
+ 
+ 
  Lets First rename our PC to match the new domain <br/>
 <img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-Lets First rename our PC to match the new domain <br/>
+<br />Lets First rename our PC to match the new domain <br/>
 <img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-Lets First rename our PC to match the new domain <br/>
+<br />Lets First rename our PC to match the new domain <br/>
 <img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-Lets First rename our PC to match the new domain <br/>
+<br />Lets First rename our PC to match the new domain <br/>
 <img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-Lets First rename our PC to match the new domain <br/>
+<br />Lets First rename our PC to match the new domain <br/>
 <img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
 <br />
 Lets First rename our PC to match the new domain <br/>
