@@ -131,33 +131,33 @@ Now we go back to Virtual Box and provison our Client PC.  But first we will cha
 <br />
  
  
- Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+ After changing out Ethernet settings on the CLient PC, (we only changed the DNS address to the IP address of our Domain Controller, we need to add it to our Domain controller. (Right-click on the start menu-> Select system -> Select "Change PC Name(advanced).  We do not change it in the field at the top, but we select "Change" instead and change it there. <br/>
+<img src="https://i.imgur.com/smusvgT.png" height="80%" width="80%"/>
 <br />
-Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
+ 
+ 
+ YOU CAN SEE IN THE BACK THAT I RAN THE PING COMMAND TO MAKE SURE I CAN TALK TO THE DOMAIN CONTROLLER AFTER RUNNING IPCONFIG TO CONFIRM THAT MY CLIENT PC HAS A DEFAULT GATEWAY, WHICH IS THE SAME AS THE IP ADDRES OF THE DOMAIN CONTROLLER.  SO INCEPTION BASICALLY...
+ 
+ 
+ 
+ Now we use our admin account of our Domain Controller and log into the DC to connect Client-SAMA <br/>
+<img src="https://i.imgur.com/1Swfrg8.jpg" height="80%" width="80%"/>
 <br />
-Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
-Lets First rename our PC to match the new domain <br/>
-<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
-<br />
+ 
+ 
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+ 
+ Success!! Also do you care that I chose not to redact all of the IP addressess even though I thought I should because Cybersecurity but realized that all of those same addresses are generated in the video I linked above? COOL, me neither <br/>
+<img src="https://i.imgur.com/PYv3tLV.png" height="80%" width="80%"/>
+<br />
+ 
+ 
+ Now that we have connected our Domain Controller to our Client PC, I mean vice versa, we will logon with one of those randomly generated employees...ahem...users. <br/>
+<img src="https://i.imgur.com/YluZE8S.png" height="80%" width="80%"/>
+<br />
+ 
+ 
+ 
+ But seriously, WHOAMI?. I'm a new computer that can be in the repsective OU. <br/>
+<img src="https://i.imgur.com/kpFJMXy.png" height="80%" width="80%"/>
+<br />
