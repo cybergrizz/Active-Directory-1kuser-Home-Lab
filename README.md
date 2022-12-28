@@ -173,7 +173,7 @@ Now we go back to Virtual Box and let's provison our Client PC.  But first we wi
  We changed the Ethernet settings on the CLient PC. We only changed the DNS address to the IP address of our Domain Controller, we need to add it to our Domain controller. 
  
  
- (Right-click on the start menu-> Select system -> Select "Change PC Name(advanced).  We do not change it in the field at the top, but we select "Change" instead and change it there.
+ (Right-click on the start menu-> Select system -> Select "Change PC Name(advanced).  We do not change it in the field at the top, but we select "Change" instead and change it there)
  
  <br/>
 <img src="https://i.imgur.com/smusvgT.png" height="80%" width="80%"/>
