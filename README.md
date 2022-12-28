@@ -66,7 +66,7 @@ We will select Domain Service to add create our domain and to be able to add out
 <img src="https://i.imgur.com/RoWcJGS.png" height="80%" width="80%"/>
 <br />
 
- Now that we have that configured, we will not add the DHCP service to our domain <br/>
+ Now that we have that configured, we will now add the DHCP service to our domain <br/>
 <img src="https://i.imgur.com/CE9t7pF.png" height="80%" width="80%"/>
 <br />
  
