@@ -23,13 +23,10 @@ In this lab this lab I created a Domain Controller in Active Directory.  I used 
 
 <p align="center">
 Lets First rename our PC to match the new domain <br/>
-<img src="https://imgur.com/r6caVxS" height="80%" width="80%"/>
+<img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
 <br />
 
-  <p align="center">
-Creating Users With PowerShell <br/>
-<img src="https://imgur.com/0b9Z6cK" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+
 
 <!--
  ```diff
