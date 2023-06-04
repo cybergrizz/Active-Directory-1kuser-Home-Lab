@@ -23,7 +23,7 @@ In this lab this lab I created a Domain Controller in Active Directory.  I used 
 
 
 <p align="center">
-Lets girst rename our PC to match the new domain 
+Lets first rename our PC to match the new domain 
  
  <br/>
 <img src="https://i.imgur.com/r6caVxS.png" height="80%" width="80%"/>
